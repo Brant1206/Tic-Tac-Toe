@@ -116,6 +116,7 @@ class Game extends React.Component {
                 </div>
                 <div className="game-info">
                     <div>{status}</div>
+                    <button>sort</button>
                     <ol>{moves}</ol>
                 </div>
             </div>
